@@ -4,7 +4,7 @@ metadata:
   name: guestbook-ingress
 spec:
   rules:
-  - host: guestbook.desls.nl
+  - host: guestbook-new.desls.nl
     http:
       paths:
       - backend:
@@ -16,5 +16,5 @@ spec:
         pathType: Prefix
   tls:
   - hosts:
-    - guestbook.desls.nl
+    - guestbook-new.desls.nl
     secretName: guestbook-tls-secret
